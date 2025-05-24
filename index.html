@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devika - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(16, 16, 38);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background-color: rgb(0, 0, 33);
+            color: white;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            height: 90%;
+            width: 90%;
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        main hr{
+            border: 0;
+            height: 1.2px;
+            margin:60px 84px;
+            background-color: blueviolet;
+        }
+        .secondsection h1{
+            font-size: 2rem;
+            margin-top: 1%;
+        }
+        .secondsection .box{
+            width: 90vw;
+            margin: 56px 0;
+            height: 2px;
+            background: white;
+            display: flex;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+         }
+         .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 18px;
+
+         }
+         .vertical-des{
+            position: relative;
+            top: 85px;
+            width: 150px;
+            font-size: 16px;
+            color: grey;
+
+         }
+         .image-top{
+            width: 35px;
+            position: relative;
+            top: -42px;
+            left: -9p
+         }
+         footer{
+            background-color: #0c0e1a;
+            height:233px ;
+
+
+
+         }
+        .footer{
+            display: flex;
+            padding: 50px 122px;
+            justify-content: space-evenly;
+
+        }
+        .footer ul{
+            list-style: none;
+
+
+        }
+        footer .www{
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        .gitlink{
+            font-size: 1.4rem;
+
+        }
+
+
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Devika's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">My name is <span class="purple">Devika</span>
+                a passionate<div></div>
+
+
+                <span id="element"></span>
+                <div><button class="btn" onclick="location.href='https://github.com/DevikaChhipa'">Visit Github</button></div>
+
+            </div>
+            <div class="rightSection">
+                <img src="developer.png">
+            </div>
+
+        </section>
+    <hr>
+        <section class="secondsection">
+            <span class="textGray">What i know/learned...</span>
+            <h1>Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="android.png" alt="">
+                    <div class="vertical-title">
+                        Web Devlopment
+                    </div>
+                    <!-- <div class="vertical-des">Learned Front-end Web devlopment and made Projects
+                        for details visit <span class="gitlink"><a href="https://github.com/Anisha-Parmar/MY-NOTES">Project link</a></span>.
+                    </div> -->
+                </div>
+                <!-- <div class="vertical">
+                    <img class="image-top" src="joystick.png" alt="">
+                    <div class="vertical-title">
+                        Game Devlopment
+                    </div>
+                    <div class="vertical-des">Learned after learning python and made Projects
+                        for details visit <span class="gitlink"><a href=https://github.com/Anisha-Parmar/Game-Galaxy>Project link</a></span>.
+                    </div>
+                </div> -->
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                         JavaScript
+                    </div>
+                    <div class="vertical-des"> language that enables dynamic and interactive features on websites
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Bootstrap
+                    </div>
+                    <div class="vertical-des">Bootstrap is a popular open-source front-end framework used for designing responsive and mobile-first websites.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="html-5.png" alt="">
+                    <div class="vertical-title">
+                        HTML and CSS
+                    </div>
+                    <div class="vertical-des">used to create this Portfolio itself.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="html-5.png" alt="">
+                    <div class="vertical-title">
+React.js
+                    </div>
+                    <div class="vertical-des">used for building user interfaces, especially single-page applications.
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h3>Links...</h3>
+            <div class="right">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="index.html">Home</a></li>
+
+
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+
+
+        </div>
+    </div>
+    <div class="www">
+        <h6>www.DevikaPortfolio.com</h6>
+    </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: [ 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
